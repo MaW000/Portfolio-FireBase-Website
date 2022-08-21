@@ -1,0 +1,70 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url('./assets/fonts/helvetica-neu.ttf') ;
+}
+
+@font-face {
+    font-family: "La Belle Aurore";
+    src: url('./assets/fonts/LaBelleAurore.woff2') ;
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url('./assets/fonts/CoolveticaRg-Regular.woff2') ;
+}
+
+input,
+textarea {
+    font-family: 'Helvetica Neue';
+}
+
+.loader-active {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+}
+
+*::-webkit-input-placeholder {
+    color: #fff;
+    font-size: large;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #fff;
+    opacity: 1;
+    font-size: large;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #fff;
+    opacity: 1;
+    font-size: large;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+    font-size: large;
+}
+*::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+    font-size: large;
+}
+*::placeholder {
+    font-size: large;
+    /* modern browser */
+    color: #fff;
+}
