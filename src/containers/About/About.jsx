@@ -1,5 +1,6 @@
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact, fat } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { next } from '../../assets'
 import React, { useState, useEffect } from 'react'
 import { AnimatedLetters } from '../../components'
 import Loader from 'react-loaders'
@@ -34,16 +35,15 @@ const About = () => {
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            In my personal time I love focusing on my health. Whether that is working out, 
+            eating healthy, or reading about habits to better my mental/physical health I am all in!
           </p>
         </div>
 
         <div className="stage-cube-cont">
             <div className="cubespinner">
               <div className="face1">
-                <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+                <img src={next}  />
               </div>
               <div className="face2">
                 <FontAwesomeIcon icon={faHtml5} color="#F06529" />
